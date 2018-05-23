@@ -1,42 +1,41 @@
 {
-  "name": "vue-app",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config webpack.config.js",
-    "start": "npm run dev"
-  },
-  "keywords": [],
-  "author": "allen.w <koomox@163.com> (https://koomox.com/)",
-  "license": "MIT",
-  "dependencies": {
-    "vue": "^2.5.16",
-    "vue-router": "^3.0.1"
-  },
-  "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-helper-vue-jsx-merge-props": "^2.0.3",
-    "babel-loader": "^7.1.4",
-    "babel-plugin-syntax-jsx": "^6.18.0",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-plugin-transform-vue-jsx": "^3.7.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-2": "^6.24.1",
-    "copy-webpack-plugin": "^4.5.1",
-    "css-loader": "^0.28.11",
-    "extract-text-webpack-plugin": "^3.0.2",
-    "file-loader": "^1.1.11",
-    "friendly-errors-webpack-plugin": "^1.7.0",
-    "html-webpack-plugin": "^3.2.0",
-    "optimize-css-assets-webpack-plugin": "^4.0.1",
-    "uglifyjs-webpack-plugin": "^1.2.5",
-    "url-loader": "^1.0.1",
-    "vue-loader": "^15.2.0",
-    "vue-style-loader": "^4.1.0",
-    "vue-template-compiler": "^2.5.16",
-    "webpack": "^4.8.3",
-    "webpack-cli": "^2.1.3",
-    "webpack-dev-server": "^3.1.4"
+	"name": "vue-app",
+	"version": "1.0.0",
+	"description": "A Vue.js Project",
+	"main": "index.js",
+	"scripts": {
+		"dev": "webpack-dev-server --inline --progress --config webpack.config.js",
+		"start": "npm run dev"
+	},
+	"author": "allen.w <koomox@163.com> (https://koomox.com/)",
+	"license": "MIT",
+	"dependencies": {
+		"vue": "^2.5.16",
+		"vue-router": "^3.0.1"
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.3",
+		"babel-helper-vue-jsx-merge-props": "^2.0.3",
+		"babel-loader": "^7.1.4",
+		"babel-plugin-syntax-jsx": "^6.18.0",
+		"babel-plugin-transform-runtime": "^6.23.0",
+		"babel-plugin-transform-vue-jsx": "^3.7.0",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-stage-2": "^6.24.1",
+		"copy-webpack-plugin": "^4.5.1",
+		"css-loader": "^0.28.11",
+		"extract-text-webpack-plugin": "^3.0.2",
+		"file-loader": "^1.1.11",
+		"friendly-errors-webpack-plugin": "^1.7.0",
+		"html-webpack-plugin": "^3.2.0",
+		"optimize-css-assets-webpack-plugin": "^4.0.1",
+		"uglifyjs-webpack-plugin": "^1.2.5",
+		"url-loader": "^1.0.1",
+		"vue-loader": "^15.2.0",
+		"vue-style-loader": "^4.1.0",
+		"vue-template-compiler": "^2.5.16",
+		"webpack": "^4.8.3",
+		"webpack-cli": "^2.1.3",
+		"webpack-dev-server": "^3.1.4"
   }
 }
